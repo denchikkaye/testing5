@@ -27,7 +27,7 @@ public class SmokeTest {
                 .getHeaderText();
         String assertionError = null;
         try {
-            Assert.assertEquals(headerText,"Партнерская программа");
+            Assert.assertEquals(headerText,"VDS и VPS");
         }
         catch (AssertionError ae) {
             assertionError = ae.toString();
